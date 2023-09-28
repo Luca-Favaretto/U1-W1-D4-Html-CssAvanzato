@@ -18,68 +18,71 @@
   </head>
 
   <body>
-    <header>
-      <img src="./assets/img/logo.svg" alt="logo epicode" />
-      <h1>EPICODE - IL BLOG DEI DEVELOPER</h1>
-      <nav class="ul-nav">
+    <div class="all">
+      <header>
+        <img src="./assets/img/logo.svg" alt="logo epicode" />
+        <h1>EPICODE - IL BLOG DEI DEVELOPER</h1>
+        <nav class="ul-nav">
+          <ul>
+            <li>HOME</li>
+            <li>ARTICOLI</li>
+            <li>LAVORA CON NOI</li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h2>Come creare un tamplate per i post</h2>
+        <p>di Mario Rossi - pubblicato il 25-10-2020</p>
+        <p>
+          La prima cosa da fare è suddividere in blocchi logici la pagina,
+          identificando le<span>parti comuni</span> da applicare a tette le
+          pagine
+        </p>
+        <p>le varie aree saranno quindi suddivise in:</p>
         <ul>
-          <li>HOME</li>
-          <li>ARTICOLI</li>
-          <li>LAVORA CON NOI</li>
+          <li>
+            Contenuti di Intestazione del tag
+            <div>&lt;header&gt;</div>
+          </li>
+          <li>
+            Contenuti centrali variabili del tag
+            <div>&lt;main</div>
+            ;
+          </li>
+          <li>
+            Contenuti di fine pagina comuni, da inserire nel tag
+            <div>&lt;footer</div>
+          </li>
         </ul>
-      </nav>
-    </header>
-    <main>
-      <h2>Come creare un tamplate per i post</h2>
-      <p>di Mario Rossi - pubblicato il 25-10-2020</p>
-      <p>
-        La prima cosa da fare è suddividere in blocchi logici la pagina,
-        identificando le<span>parti comuni</span> da applicare a tette le pagine
-      </p>
-      <p>le varie aree saranno quindi suddivise in:</p>
-      <ul>
-        <li>
-          Contenuti di Intestazione del tag
-          <div>&lt;header&gt;</div>
-        </li>
-        <li>
-          Contenuti centrali variabili del tag
-          <div>&lt;main</div>
-          ;
-        </li>
-        <li>
-          Contenuti di fine pagina comuni, da inserire nel tag
-          <div>&lt;footer</div>
-        </li>
-      </ul>
-      <p>
-        Formatazione del codice <br />
-        Il test dell'articolo dovrà essere formattato per identificare tutte le
-        parti da <span>selezionare con i CSS</span>. Perciò i passi saranno:
-      </p>
-      <ol>
-        <li>
-          Progettare su carta il markup finale, assegnando ad ogni specifico
-          testo il tag appropriato
-        </li>
-        <li>
-          Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il
-          basso
-        </li>
-        <li>Applicare gli stili CSS</li>
-      </ol>
-      <p>
-        L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la
-        diffusione pressochè totale.
-      </p>
-     
+        <p>
+          Formatazione del codice <br />
+          Il test dell'articolo dovrà essere formattato per identificare tutte
+          le parti da <span>selezionare con i CSS</span>. Perciò i passi
+          saranno:
+        </p>
+        <ol>
+          <li>
+            Progettare su carta il markup finale, assegnando ad ogni specifico
+            testo il tag appropriato
+          </li>
+          <li>
+            Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso
+            il basso
+          </li>
+          <li>Applicare gli stili CSS</li>
+        </ol>
+        <p>
+          L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere
+          la diffusione pressochè totale.
+        </p>
+
         <table>
           <caption>
             Diffuione dei CSS
           </caption>
           <tr>
             <th>Anno</th>
-            <th>% di <br>utilizzo</th>
+            <th>% di <br />utilizzo</th>
             <th>Supporto browser</th>
           </tr>
           <tr>
@@ -108,51 +111,59 @@
             <td>76%</td>
           </tr>
         </table>
-      </div>
-      <hr />
-      <p>
-        Un test di validazione potrà essere fatto tramite il
-        <a href="#">tool online</a> dedicato allo scopo. Una volta ottimizzato
-        il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri
-        developer come loro:
-      </p>
-      <iframe width="723" height="407" src="https://www.youtube.com/embed/rfgOb5kV8AE" title="CMO di una STARTUP: Come si gestisce il Marketing? 🤌" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      <div class="div-grigio">
-        <h2 class="novità">novità</h2>
+        <hr />
         <p>
-          Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla
-          nostra newsletter:
+          Un test di validazione potrà essere fatto tramite il
+          <a href="#">tool online</a> dedicato allo scopo. Una volta ottimizzato
+          il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei
+          veri developer come loro:
         </p>
-        <form>
-          <input type="email" placeholder="Inserisci la tua email" />
-          <button type="submit">Iscriviti!</button>
-        </form>
-      </div>
-      <h2>ARTICOLI CORRELATI</h2>
-      <div class="div-grigio">
-        <a href="#">Validare il codice HTML</a>
-        <p>Categoria: develop</p>
-        <p>Data 18-9-2020</p>
-      </div>
-      <div class="div-grigio">
-        <a href="#">Correggere la sintassi</a>
-        <p>Categoria: develop</p>
-        <p>Data 16-9-2020</p>
-      </div>
-      <div class="div-grigio">
-        <a href="#">Meno Kb nella pagina</a>
-        <p>Categoria: ottimizzazione</p>
-        <p>Data 30-9-2020</p>
-      
-    </main>
+        <iframe
+          width="723"
+          height="407"
+          src="https://www.youtube.com/embed/rfgOb5kV8AE"
+          title="CMO di una STARTUP: Come si gestisce il Marketing? 🤌"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <div class="div-grigio">
+          <h2 class="novità">novità</h2>
+          <p>
+            Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla
+            nostra newsletter:
+          </p>
+          <form>
+            <input type="email" placeholder="Inserisci la tua email" />
+            <button type="submit">Iscriviti!</button>
+          </form>
+        </div>
+        <h2>ARTICOLI CORRELATI</h2>
+        <div class="div-grigio">
+          <a href="#">Validare il codice HTML</a>
+          <p>Categoria: develop</p>
+          <p>Data 18-9-2020</p>
+        </div>
+        <div class="div-grigio">
+          <a href="#">Correggere la sintassi</a>
+          <p>Categoria: develop</p>
+          <p>Data 16-9-2020</p>
+        </div>
+        <div class="div-grigio">
+          <a href="#">Meno Kb nella pagina</a>
+          <p>Categoria: ottimizzazione</p>
+          <p>Data 30-9-2020</p>
+        </div>
+      </main>
 
-    <footer>
-      <p>Blog Epicode</p>
-      <p>
-        Testata online di Mario Rossi, registrata con <br />
-        prot.n.213/2018 - via Luigi Einaudi 2 - Milano. <br />
-        P.IVA 00112233. <a href="#">info@epicode.school</a>
-      </p>
-    </footer>
+      <footer>
+        <p>Blog Epicode</p>
+        <p>
+          Testata online di Mario Rossi, registrata con <br />
+          prot.n.213/2018 - via Luigi Einaudi 2 - Milano. <br />
+          P.IVA 00112233. <a href="#">info@epicode.school</a>
+        </p>
+      </footer>
+    </div>
   </body>
 </html>
