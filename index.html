@@ -21,11 +21,13 @@
     <header>
       <img src="./assets/img/logo.svg" alt="logo epicode" />
       <h1>EPICODE - IL BLOG DEI DEVELOPER</h1>
-      <ul>
-        <li>HOME</li>
-        <li>ARTICOLI</li>
-        <li>LAVORA CON NOI</li>
-      </ul>
+      <nav class="ul-nav">
+        <ul>
+          <li>HOME</li>
+          <li>ARTICOLI</li>
+          <li>LAVORA CON NOI</li>
+        </ul>
+      </nav>
     </header>
     <main>
       <h2>Come creare un tamplate per i post</h2>
@@ -70,41 +72,43 @@
         L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la
         diffusione pressochè totale.
       </p>
-      <table>
-        <caption>
-          Diffuione dei CSS
-        </caption>
-        <tr>
-          <th>Anno</th>
-          <th>% di utilizzo</th>
-          <th>Supporto browser</th>
-        </tr>
-        <tr>
-          <td>2000</td>
-          <td>20%</td>
-          <td>17%</td>
-        </tr>
-        <tr>
-          <td>2002</td>
-          <td>35%</td>
-          <td>22%</td>
-        </tr>
-        <tr>
-          <td>2004</td>
-          <td>45%</td>
-          <td>42%</td>
-        </tr>
-        <tr>
-          <td>2008</td>
-          <td>80%</td>
-          <td>51%</td>
-        </tr>
-        <tr>
-          <td>2012</td>
-          <td>100%</td>
-          <td>76%</td>
-        </tr>
-      </table>
+      <div class="div-tabella">
+        <table>
+          <caption>
+            Diffuione dei CSS
+          </caption>
+          <tr>
+            <th>Anno</th>
+            <th>% di utilizzo</th>
+            <th>Supporto browser</th>
+          </tr>
+          <tr>
+            <td>2000</td>
+            <td>20%</td>
+            <td>17%</td>
+          </tr>
+          <tr>
+            <td>2002</td>
+            <td>35%</td>
+            <td>22%</td>
+          </tr>
+          <tr>
+            <td>2004</td>
+            <td>45%</td>
+            <td>42%</td>
+          </tr>
+          <tr>
+            <td>2008</td>
+            <td>80%</td>
+            <td>51%</td>
+          </tr>
+          <tr>
+            <td>2012</td>
+            <td>100%</td>
+            <td>76%</td>
+          </tr>
+        </table>
+      </div>
       <hr />
       <p>
         Un test di validazione potrà essere fatto tramite il
@@ -113,7 +117,6 @@
         developer come loro:
       </p>
       <iframe
-        width="450px"
         src="https://www.youtube.com/embed/rfgOb5kV8AE"
         title="CMO di una STARTUP: Come si gestisce il Marketing? 🤌"
         frameborder="0"
