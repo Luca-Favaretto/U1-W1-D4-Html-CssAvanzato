@@ -1,16 +1,15 @@
-body {
-}
 .all {
   margin-inline: auto;
   width: 450px;
   font-family: "Libre Baskerville", serif;
   background-image: url("../img/sfondo.png");
   font-family: "Poppins", sans-serif;
-  background-size: contain;
+  background-size: repeat;
   font-size: 17px;
-
   padding: 1rem;
-  margin: 1 rem;
+  margin: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
 }
 header {
   background: rgb(9, 101, 121);
@@ -21,9 +20,8 @@ header {
   );
   text-align: center;
   color: white;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  margin: 1 rem;
+  padding: 3rem;
+  margin: 1rem;
   -webkit-box-shadow: 1px 5px 10px -1px #000000;
   -moz-box-shadow: 1px 5px 10px -1px #000000;
   -o-box-shadow: 1px 5px 10px -1px #000000;
@@ -50,30 +48,39 @@ footer {
   margin: 1rem;
   text-align: center;
   padding: 1rem;
-  margin: 1 rem;
+  margin: 1rem;
   -webkit-box-shadow: 1px 5px 10px -1px #000000;
   -moz-box-shadow: 1px 5px 10px -1px #000000;
   -o-box-shadow: 1px 5px 10px -1px #000000;
   box-shadow: 1px 5px 10px -1px #000000;
 }
+main .small-but {
+  background-color: #aaaaaa82;
+  border-radius: 7px;
+  border: solid 1px black;
+  color: black;
+  font-weight: 400;
+}
 p {
   margin: 2rem;
 }
 header img {
-  width: 60%;
+  width: 13rem;
 }
 
 nav {
   margin-top: 2rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
 }
+
 .ul-nav li {
   list-style: none;
   padding: 0.5;
 }
 
-.ul-nav li::before {
-  content: 2;
+.ul-nav ul li::before {
+  content: "" §§§ "";
 }
 
 h1 {
@@ -86,7 +93,7 @@ body main h2 {
   font-weight: bold;
   margin: 1rem;
 }
-ul {
+main ul {
   list-style: disc;
   padding-left: 3rem;
 }
@@ -96,6 +103,7 @@ a {
 }
 span {
   color: blueviolet;
+  font-weight: bold;
 }
 
 .div-tabella {
@@ -109,7 +117,7 @@ table {
   text-align: center;
 }
 table th {
-  background-color: #105abc;
+  background-color: #267ae9;
   height: 2rem;
   width: 33%;
   height: 4rem;
@@ -120,11 +128,11 @@ table td {
   padding-top: 1.2rem;
 }
 table tr:nth-child(odd) {
-  background-color: #aaaaaa4d;
+  background-color: #3632324d;
 }
 iframe {
   margin: 2 rem;
-  border-radius: 10%;
+  border-radius: 10px;
   width: 100%;
   height: 14rem;
 }
@@ -140,4 +148,7 @@ button {
   background-color: #aaaaaa4d;
   padding: 1rem;
   margin: 1rem;
+}
+.p-right {
+  text-align: right;
 }
