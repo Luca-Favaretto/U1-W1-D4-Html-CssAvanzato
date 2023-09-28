@@ -1,0 +1,36 @@
+body {
+  margin-inline: auto;
+  background-image: url("../img/sfondo.png");
+  width: 450px;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Poppins", sans-serif;
+  background-image: cover;
+}
+header {
+  background-color: blue;
+}
+main {
+  background-color: beige;
+}
+
+footer {
+  background-color: aquamarine;
+}
+h1 {
+  font-weight: bolder;
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2 rem;
+}
+ul {
+  list-style: disc;
+}
+a {
+  color: aquamarine;
+}
+span {
+  color: blueviolet;
+}
+table {
+}
